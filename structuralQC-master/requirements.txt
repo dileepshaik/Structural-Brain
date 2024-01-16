@@ -1,0 +1,12 @@
+plumbum
+scipy
+numpy
+pandas
+xlrd
+nibabel
+pynrrd
+psutil
+ipython
+sklearn
+openpyxl
+jupyter

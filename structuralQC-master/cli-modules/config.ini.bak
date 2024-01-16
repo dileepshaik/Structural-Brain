@@ -1,0 +1,26 @@
+[DEFAULT]
+points = 20
+nx = 8
+ny = 8
+nz = 8
+eta = 0.9
+sx = 1
+sy = 1
+sz = 1
+metric = PEARSON
+decisionfactor = 2
+
+[TRAINING]
+discretescores = [1, 2, 3, 4]
+train_visual_qc = train_data/train_visual_qc.xlsx
+test_visual_qc = train_data/test_visual_qc.xlsx
+fixedimaget1 = train_data/1001-t1w-xc.nrrd
+fixedimaget2 = train_data/1001-t2w-xc.nrrd
+fixedmaskt1 = 
+fixedmaskt2 = 
+t1histogram = train_data/processed/patch_histograms_t1.npy
+t2histogram = train_data/processed/patch_histograms_t2.npy
+
+[RESOURCE]
+n_cpu = 4
+

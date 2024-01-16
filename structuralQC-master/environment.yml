@@ -1,0 +1,25 @@
+name: structQC
+
+channels:
+    - conda-forge
+    - pnlbwh
+
+dependencies:
+    - python>=3.0
+    - ipython
+    - numpy
+    - nibabel
+    - pandas
+    - xlrd
+    - scipy
+    - psutil
+    - plumbum
+    - ants
+    - conda-build
+    - sklearn
+    - openpyxl
+    - jupyter
+    - git
+    - pip
+    - pip:
+        - git+https://github.com/mhe/pynrrd.git
